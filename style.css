@@ -1,0 +1,70 @@
+body {
+    margin: 0%;
+    text-align: center;
+}
+#welcome{
+    background-color: aquamarine;
+}
+h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman';
+}
+    #name{
+        font-size: 50px;
+        font-family: cursive;
+    }
+    #bio{
+        font-family: cursive;
+
+    }
+    p{
+        background-color: aquamarine;
+    }
+    .menu{
+       
+        position: fixed;
+        background: rgb(185, 179, 179);
+        top: 0px;
+        width: 100%;
+        margin-top: 0px;
+        z-index: 10;
+     
+    }
+    .links{
+        float: left;
+        padding: 5px;
+        font-family: fantasy;
+        font-size:20px;
+        display: inline;
+
+    }
+    #name{
+        font-size:50px ;
+        font-family: "Cinzel Decorative",cursive;
+
+    }
+    #bio{
+        font-family:"Cinzel Decorative",cursive;
+        padding:50px ;
+        
+    }
+
+    a{
+        text-decoration: none;
+    }
+    .links:hover{
+        font-size: 25px;
+        text-decoration: underline;
+
+    }
+    #writings a{
+        text-decoration: underline;
+        color: black;
+    }
+    #contatos{
+
+        background: gray;
+    }
+    #contatos iframe{
+        width: 100%;
+    }
